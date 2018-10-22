@@ -48,5 +48,9 @@ public class Registrazione extends JDialog {
 		JLabel lblMatricola = new JLabel("Matricola");
 		lblMatricola.setBounds(44, 108, 56, 16);
 		getContentPane().add(lblMatricola);
+		
+		JLabel lblNewLabel_3 = new JLabel("Password");
+		lblNewLabel_3.setBounds(44, 137, 56, 16);
+		getContentPane().add(lblNewLabel_3);
 	}
 }
