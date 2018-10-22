@@ -60,7 +60,7 @@ public class RichiestaAlDB {
 	       System.out.println (("CONOME: " + rsStmt.getString("cognome"))); 
 	       System.out.println (("ETA: " + rsStmt.getString("eta"))); 
 	       System.out.println (("ALTEZZA: " + rsStmt.getString("altezza"))); 
-	       System.out.println();;
+	       System.out.println("");;
 	       } 
 	      
 	       
