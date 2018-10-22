@@ -9,8 +9,10 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import java.awt.Font;
+import javax.swing.JTextField;
 
 public class Registrazione extends JDialog {
+	private JTextField textField;
 
 	/**
 	 * Launch the application.
@@ -52,5 +54,10 @@ public class Registrazione extends JDialog {
 		JLabel lblNewLabel_3 = new JLabel("Password");
 		lblNewLabel_3.setBounds(44, 137, 56, 16);
 		getContentPane().add(lblNewLabel_3);
+		
+		textField = new JTextField();
+		textField.setBounds(120, 53, 116, 22);
+		getContentPane().add(textField);
+		textField.setColumns(10);
 	}
 }
