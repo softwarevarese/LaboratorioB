@@ -54,7 +54,7 @@ public class AltriCorsiStudente extends JFrame {
 		contentPane.add(lblListaDeiCorsi);
 		
 		JButton btnNewButton = new JButton("Info sul corso");
-		btnNewButton.setBounds(146, 423, 138, 25);
+		btnNewButton.setBounds(146, 423, 143, 25);
 		contentPane.add(btnNewButton);
 	}
 }
