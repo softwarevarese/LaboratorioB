@@ -50,7 +50,7 @@ public class AltriCorsiStudente extends JFrame {
 		
 		JLabel lblListaDeiCorsi = new JLabel("Lista degli altri corsi");
 		lblListaDeiCorsi.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblListaDeiCorsi.setBounds(12, 19, 384, 16);
+		lblListaDeiCorsi.setBounds(12, 19, 393, 16);
 		contentPane.add(lblListaDeiCorsi);
 		
 		JButton btnNewButton = new JButton("Info sul corso");
